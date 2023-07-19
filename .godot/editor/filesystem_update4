@@ -1,3 +1,7 @@
+res://Scene/Game.tscn
+res://Scene/Felix.tscn
+res://Scene/Level1.tscn
+res://Scene/Floor.tscn
 res://Script/Actor/Player/Component/PlayerStateMachine.cs
 res://Script/Actor/Player/Component/Sheet.cs
 res://Script/Actor/Player/Felix.cs
@@ -15,6 +19,3 @@ res://System/Component/Object/DynamicObject.cs
 res://System/Component/Object/Equipment/Weapon.cs
 res://System/Data/DamageData.cs
 res://System/Data/Metadata.cs
-res://Scene/Felix.tscn
-res://Scene/Game.tscn
-res://Scene/Level1.tscn

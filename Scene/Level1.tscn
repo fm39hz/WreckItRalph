@@ -2,10 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://bl1cenheqbido" path="res://Asset/Level1.png" id="1_3h27l"]
 [ext_resource type="PackedScene" uid="uid://cybtspbceuouw" path="res://Scene/Window.tscn" id="2_0caa1"]
-
-[sub_resource type="SegmentShape2D" id="SegmentShape2D_yeb4l"]
-a = Vector2(213, 318)
-b = Vector2(-267, 318)
+[ext_resource type="PackedScene" uid="uid://byk3w5padisij" path="res://Scene/Floor.tscn" id="2_67l1s"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_wroln"]
 size = Vector2(369, 194)
@@ -21,14 +18,8 @@ texture = ExtResource("1_3h27l")
 offset = Vector2(0, 56)
 metadata/_edit_lock_ = true
 
-[node name="RigidBody2D" type="RigidBody2D" parent="Camera2D"]
-collision_layer = 4
-collision_mask = 4
-lock_rotation = true
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Camera2D/RigidBody2D"]
-position = Vector2(27, 0)
-shape = SubResource("SegmentShape2D_yeb4l")
+[node name="Floor" parent="Camera2D" instance=ExtResource("2_67l1s")]
+position = Vector2(0, 317)
 
 [node name="SeconFloor" type="Area2D" parent="."]
 position = Vector2(0, 321)

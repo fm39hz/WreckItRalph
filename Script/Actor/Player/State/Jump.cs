@@ -12,13 +12,10 @@ namespace  Actor.Target.Felix;
 		public override void RunningState(double delta){
 			base.RunningState(delta);
 				if (Object.IsOnFloor()){
-					Object.Velocity = Object.PlayerInputManager.GetPlayerMovementVector(Object.Velocity) * this.MovingSpeed;
+					for (int i = 0 ; i < 100; i++){
+						Object.Velocity += Object.PlayerInputManager.VerticalVector(Object.Velocity) * this.MovingSpeed;
+						}
 					}
-				if (!Object.IsOnFloor()){
-					
-					}
-				else {
-					this.ResetCondition();
-					}
+				this.ResetCondition();
             }
 		}

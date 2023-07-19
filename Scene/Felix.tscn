@@ -26,7 +26,7 @@ FourDirectionAnimation = null
 position = Vector2(-0.5, -13)
 texture = ExtResource("2_pxrr4")
 hframes = 8
-vframes = 3
+vframes = 4
 script = ExtResource("3_jn2l3")
 metadata/_edit_lock_ = true
 
@@ -58,7 +58,7 @@ ID = null
 
 [node name="Jump" type="Node" parent="StateMachine"]
 script = ExtResource("8_5facp")
-MovingSpeed = 85.0
+MovingSpeed = -85.0
 NumberOfFrame = 4
 IsLoop = null
 AnimationSpeed = 5.0

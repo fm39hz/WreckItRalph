@@ -7,6 +7,7 @@ namespace  Actor.TargetFelix;
 			var _inputManager = Object.PlayerInputManager;
 			_inputManager.MovementKeyPressed += this.SetCondition;
 			_inputManager.ActionKeyPressed += this.ResetCondition;
+			_inputManager.JumpKeyPressed += this.ResetCondition;
 			}
 		public override void SetCondition(bool condition){
 			if (!this.IsInitialized){

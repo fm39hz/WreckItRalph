@@ -7,9 +7,8 @@
 y_sort_enabled = true
 
 [node name="Felix" parent="." instance=ExtResource("1_1kvu2")]
-position = Vector2(220, -29)
-JumpVelocity = null
-FourDirectionAnimation = null
+position = Vector2(221, -215)
 
 [node name="Level1" parent="." instance=ExtResource("2_p1hrp")]
+z_index = -1
 position = Vector2(0, -323)
