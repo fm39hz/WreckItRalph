@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nguye\\Downloads\\Hienpham\\WreckItRalph\\WreckItRalph.csproj": {}
+    "/home/fm39hz/Disk/WorkSpace/My_game/Godot/WreckItRalph/WreckItRalph.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nguye\\Downloads\\Hienpham\\WreckItRalph\\WreckItRalph.csproj": {
+    "/home/fm39hz/Disk/WorkSpace/My_game/Godot/WreckItRalph/WreckItRalph.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nguye\\Downloads\\Hienpham\\WreckItRalph\\WreckItRalph.csproj",
+        "projectUniqueName": "/home/fm39hz/Disk/WorkSpace/My_game/Godot/WreckItRalph/WreckItRalph.csproj",
         "projectName": "WreckItRalph",
-        "projectPath": "C:\\Users\\nguye\\Downloads\\Hienpham\\WreckItRalph\\WreckItRalph.csproj",
-        "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nguye\\Downloads\\Hienpham\\WreckItRalph\\.godot\\mono\\temp\\obj\\",
+        "projectPath": "/home/fm39hz/Disk/WorkSpace/My_game/Godot/WreckItRalph/WreckItRalph.csproj",
+        "packagesPath": "/home/fm39hz/.nuget/packages/",
+        "outputPath": "/home/fm39hz/Disk/WorkSpace/My_game/Godot/WreckItRalph/.godot/mono/temp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/fm39hz/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -40,15 +40,15 @@
           "dependencies": {
             "Godot.SourceGenerators": {
               "target": "Package",
-              "version": "[4.1.1, )"
+              "version": "[4.1.0, )"
             },
             "GodotSharp": {
               "target": "Package",
-              "version": "[4.1.1, )"
+              "version": "[4.1.0, )"
             },
             "GodotSharpEditor": {
               "target": "Package",
-              "version": "[4.1.1, )"
+              "version": "[4.1.0, )"
             }
           },
           "imports": [
@@ -62,12 +62,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.7, 7.0.7]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.107/RuntimeIdentifierGraph.json"
         }
       }
     }

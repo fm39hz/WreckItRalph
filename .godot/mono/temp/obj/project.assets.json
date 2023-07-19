@@ -2,13 +2,13 @@
   "version": 3,
   "targets": {
     "net7.0": {
-      "Godot.SourceGenerators/4.1.1": {
+      "Godot.SourceGenerators/4.1.0": {
         "type": "package",
         "build": {
           "build/Godot.SourceGenerators.props": {}
         }
       },
-      "GodotSharp/4.1.1": {
+      "GodotSharp/4.1.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/GodotSharp.dll": {
@@ -21,10 +21,10 @@
           }
         }
       },
-      "GodotSharpEditor/4.1.1": {
+      "GodotSharpEditor/4.1.0": {
         "type": "package",
         "dependencies": {
-          "GodotSharp": "4.1.1"
+          "GodotSharp": "4.1.0"
         },
         "compile": {
           "lib/net6.0/GodotSharpEditor.dll": {
@@ -40,40 +40,40 @@
     }
   },
   "libraries": {
-    "Godot.SourceGenerators/4.1.1": {
-      "sha512": "Kti3AjqGFT/myqAg87ykwoGAMrSUZkQaLdpZRWqvO0w2VhDtwUgEEKZk5HK94GzlWHOHZx2UW2fO88G7h56VgA==",
+    "Godot.SourceGenerators/4.1.0": {
+      "sha512": "o15RG1qS++1TkRTaD6pfCDinUjmf4DdauT3syuUN2J0anZ8tcOdQqPTjK22FvFn1TY1bjBc5PRJ+BZo+8PnaGA==",
       "type": "package",
-      "path": "godot.sourcegenerators/4.1.1",
+      "path": "godot.sourcegenerators/4.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "analyzers/dotnet/cs/Godot.SourceGenerators.dll",
         "build/Godot.SourceGenerators.props",
-        "godot.sourcegenerators.4.1.1.nupkg.sha512",
+        "godot.sourcegenerators.4.1.0.nupkg.sha512",
         "godot.sourcegenerators.nuspec"
       ]
     },
-    "GodotSharp/4.1.1": {
-      "sha512": "r07Z+O82m5dAqeJMYHDJCGdD0p1gb8vNVi+kIFYGjDNk39Ys3fgsm+x7ZpHEfNSW2oHTn62SCuCE38UAVy17MA==",
+    "GodotSharp/4.1.0": {
+      "sha512": "V5Hed2RgqXWCtzQ9NwhohV4uK23unz2wPEUGc0zeYFVf00+OFF9nmrb2bbFiaRzdEMikMh8anXfzJPbmWyp+hw==",
       "type": "package",
-      "path": "godotsharp/4.1.1",
+      "path": "godotsharp/4.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "godotsharp.4.1.1.nupkg.sha512",
+        "godotsharp.4.1.0.nupkg.sha512",
         "godotsharp.nuspec",
         "lib/net6.0/GodotSharp.dll",
         "lib/net6.0/GodotSharp.xml"
       ]
     },
-    "GodotSharpEditor/4.1.1": {
-      "sha512": "t29ltWPBHhWDKncK2XFXmHx29jGOqtsR9PFdkjIcRWG5+PdcCJNrCng5cls/H+zGtluGF5L6rNBFbFlBBvTgkA==",
+    "GodotSharpEditor/4.1.0": {
+      "sha512": "u00jFpDFBSht/Oiy6czbKSfk9r4R6HWfqxdjlsP3eua/DF7psuWae9eswlJxsOx7IOTZRWn1dgbCtage3R1UNQ==",
       "type": "package",
-      "path": "godotsharpeditor/4.1.1",
+      "path": "godotsharpeditor/4.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "godotsharpeditor.4.1.1.nupkg.sha512",
+        "godotsharpeditor.4.1.0.nupkg.sha512",
         "godotsharpeditor.nuspec",
         "lib/net6.0/GodotSharpEditor.dll",
         "lib/net6.0/GodotSharpEditor.xml"
@@ -82,25 +82,25 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "Godot.SourceGenerators >= 4.1.1",
-      "GodotSharp >= 4.1.1",
-      "GodotSharpEditor >= 4.1.1"
+      "Godot.SourceGenerators >= 4.1.0",
+      "GodotSharp >= 4.1.0",
+      "GodotSharpEditor >= 4.1.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nguye\\.nuget\\packages\\": {}
+    "/home/fm39hz/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nguye\\Downloads\\Hienpham\\WreckItRalph\\WreckItRalph.csproj",
+      "projectUniqueName": "/home/fm39hz/Disk/WorkSpace/My_game/Godot/WreckItRalph/WreckItRalph.csproj",
       "projectName": "WreckItRalph",
-      "projectPath": "C:\\Users\\nguye\\Downloads\\Hienpham\\WreckItRalph\\WreckItRalph.csproj",
-      "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nguye\\Downloads\\Hienpham\\WreckItRalph\\.godot\\mono\\temp\\obj\\",
+      "projectPath": "/home/fm39hz/Disk/WorkSpace/My_game/Godot/WreckItRalph/WreckItRalph.csproj",
+      "packagesPath": "/home/fm39hz/.nuget/packages/",
+      "outputPath": "/home/fm39hz/Disk/WorkSpace/My_game/Godot/WreckItRalph/.godot/mono/temp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/fm39hz/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -126,15 +126,15 @@
         "dependencies": {
           "Godot.SourceGenerators": {
             "target": "Package",
-            "version": "[4.1.1, )"
+            "version": "[4.1.0, )"
           },
           "GodotSharp": {
             "target": "Package",
-            "version": "[4.1.1, )"
+            "version": "[4.1.0, )"
           },
           "GodotSharpEditor": {
             "target": "Package",
-            "version": "[4.1.1, )"
+            "version": "[4.1.0, )"
           }
         },
         "imports": [
@@ -148,12 +148,18 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.7, 7.0.7]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.107/RuntimeIdentifierGraph.json"
       }
     }
   }
