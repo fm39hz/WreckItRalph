@@ -8,7 +8,6 @@ namespace GameSystem.Component.Manager;
 		[Signal] public delegate void ActionKeyPressedEventHandler();
 		[Signal] public delegate void JumpKeyPressedEventHandler();
 		private Felix CurrentPlayer { get; set; }
-		private float Gravity = ProjectSettings.GetSetting("physics/2d/default_gravity").AsSingle();
 		public override void _Ready(){
 			try{
 				CurrentPlayer = GetOwner<Felix>();
