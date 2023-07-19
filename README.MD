@@ -1,5 +1,5 @@
-# Prototype
-Project nhỏ để tôi test các mẫu system cho Godot 4.0
+# WreckItRalph
+My 3 Days game Challange made with Godot
 
 # Credit
-Placeholder được mượn từ HeartBeast trong series [ActionRPG](https://github.com/uheartbeast/youtube-tutorials/tree/master/Action%20RPG/World)
+Asset borrow from [Wreck-it_Ralph](https://github.com/meyers980/Wreck-it_Ralph)
