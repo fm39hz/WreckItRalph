@@ -1,7 +1,0 @@
-StaticBody2D
-Node
-CollisionShape2D
-RigidBody2D
-Area2D
-Camera2D
-Sprite2D
