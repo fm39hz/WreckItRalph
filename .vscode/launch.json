@@ -1,0 +1,26 @@
+{
+    "version": "0.0.1",
+    "configurations": [
+        {
+            "name": "Debug",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "Build",
+            "program": "",
+            "windows": {
+                "program": "C:/Users/nguye/Downloads/Hienpham/Godot_v4.1.1-stable_mono_win64/Godot_v4.1.1-stable_mono_win64.exe",
+                },
+            "linux": {
+                "program": "/usr/bin/godot-mono",
+                },
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopAtEntry": false,
+            "requireExactSource": false,
+            "enableStepFiltering": false,
+            "logging": {
+                "moduleLoad": false
+                },
+        }   
+    ]
+}

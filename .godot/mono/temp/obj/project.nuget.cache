@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "EkHANm7nXsbXRc8VLsWN6W5/O4UWycDh5M4pHItkWVx9WPD/cR4OI5ka2fDN6ZovMCHT2rpdM9Fw6DvQcBKBDg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nguye\\Downloads\\Hienpham\\WreckItRalph\\WreckItRalph.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nguye\\.nuget\\packages\\godot.sourcegenerators\\4.1.1\\godot.sourcegenerators.4.1.1.nupkg.sha512",
+    "C:\\Users\\nguye\\.nuget\\packages\\godotsharp\\4.1.1\\godotsharp.4.1.1.nupkg.sha512",
+    "C:\\Users\\nguye\\.nuget\\packages\\godotsharpeditor\\4.1.1\\godotsharpeditor.4.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,73 @@
+[gd_scene load_steps=11 format=3 uid="uid://kgg7c4d2bawo"]
+
+[ext_resource type="Script" path="res://Script/Actor/Player/Felix.cs" id="1_jpvq0"]
+[ext_resource type="Texture2D" uid="uid://dntt1awqhd1xw" path="res://Asset/felix.png" id="2_pxrr4"]
+[ext_resource type="Script" path="res://Script/Actor/Player/Component/Sheet.cs" id="3_jn2l3"]
+[ext_resource type="PackedScene" uid="uid://dla2de2doyhx" path="res://Scene/InputManager.tscn" id="4_jxjqn"]
+[ext_resource type="Script" path="res://Script/Actor/Player/Component/PlayerStateMachine.cs" id="5_5kfl6"]
+[ext_resource type="Script" path="res://Script/Actor/Player/State/Idle.cs" id="6_4iqak"]
+[ext_resource type="Script" path="res://Script/Actor/Player/State/Walk.cs" id="7_ualbc"]
+[ext_resource type="Script" path="res://Script/Actor/Player/State/Jump.cs" id="8_5facp"]
+[ext_resource type="Script" path="res://Script/Actor/Player/State/Action.cs" id="8_xqrdx"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_h1rkf"]
+height = 60.0
+
+[node name="Felix" type="CharacterBody2D"]
+collision_layer = 7
+collision_mask = 7
+platform_floor_layers = 4294901764
+platform_wall_layers = 2
+script = ExtResource("1_jpvq0")
+JumpVelocity = null
+FourDirectionAnimation = null
+
+[node name="Sheet" type="Sprite2D" parent="."]
+position = Vector2(-0.5, -13)
+texture = ExtResource("2_pxrr4")
+hframes = 8
+vframes = 3
+script = ExtResource("3_jn2l3")
+metadata/_edit_lock_ = true
+
+[node name="Collider" type="CollisionShape2D" parent="."]
+position = Vector2(-1, -7)
+shape = SubResource("CapsuleShape2D_h1rkf")
+
+[node name="InputManager" parent="." instance=ExtResource("4_jxjqn")]
+
+[node name="StateMachine" type="Node" parent="." node_paths=PackedStringArray("CurrentState")]
+script = ExtResource("5_5kfl6")
+CurrentState = NodePath("Idle")
+
+[node name="Idle" type="Node" parent="StateMachine"]
+script = ExtResource("6_4iqak")
+MovingSpeed = null
+NumberOfFrame = 2
+IsLoop = true
+AnimationSpeed = 5.0
+ID = null
+
+[node name="Walk" type="Node" parent="StateMachine"]
+script = ExtResource("7_ualbc")
+MovingSpeed = 85.0
+NumberOfFrame = 4
+IsLoop = true
+AnimationSpeed = 8.5
+ID = null
+
+[node name="Jump" type="Node" parent="StateMachine"]
+script = ExtResource("8_5facp")
+MovingSpeed = 85.0
+NumberOfFrame = 4
+IsLoop = null
+AnimationSpeed = 5.0
+ID = null
+
+[node name="Action" type="Node" parent="StateMachine"]
+script = ExtResource("8_xqrdx")
+MovingSpeed = null
+NumberOfFrame = 2
+IsLoop = null
+AnimationSpeed = 5.0
+ID = null

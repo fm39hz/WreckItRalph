@@ -1,0 +1,103 @@
+[gd_scene load_steps=6 format=3 uid="uid://mja086jrreo3"]
+
+[ext_resource type="Texture2D" uid="uid://bl1cenheqbido" path="res://Asset/Level1.png" id="1_3h27l"]
+[ext_resource type="PackedScene" uid="uid://cybtspbceuouw" path="res://Scene/Window.tscn" id="2_0caa1"]
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_yeb4l"]
+a = Vector2(213, 318)
+b = Vector2(-267, 318)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wroln"]
+size = Vector2(369, 194)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dfy7b"]
+size = Vector2(368, 194)
+
+[node name="Level1" type="Sprite2D"]
+position = Vector2(0, -321)
+texture = ExtResource("1_3h27l")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+offset = Vector2(0, 56)
+metadata/_edit_lock_ = true
+
+[node name="RigidBody2D" type="RigidBody2D" parent="Camera2D"]
+collision_layer = 4
+collision_mask = 4
+lock_rotation = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Camera2D/RigidBody2D"]
+position = Vector2(27, 0)
+shape = SubResource("SegmentShape2D_yeb4l")
+
+[node name="SeconFloor" type="Area2D" parent="."]
+position = Vector2(0, 321)
+metadata/_edit_lock_ = true
+
+[node name="Floor2Area" type="CollisionShape2D" parent="SeconFloor"]
+position = Vector2(0.5, -322)
+shape = SubResource("RectangleShape2D_wroln")
+
+[node name="Window" parent="SeconFloor" instance=ExtResource("2_0caa1")]
+position = Vector2(-134, -322)
+
+[node name="Window2" parent="SeconFloor" instance=ExtResource("2_0caa1")]
+position = Vector2(-71, -322)
+
+[node name="Window3" parent="SeconFloor" instance=ExtResource("2_0caa1")]
+position = Vector2(-71, -232)
+
+[node name="Window4" parent="SeconFloor" instance=ExtResource("2_0caa1")]
+position = Vector2(-134, -231)
+
+[node name="Window5" parent="SeconFloor" instance=ExtResource("2_0caa1")]
+position = Vector2(72, -322)
+
+[node name="Window6" parent="SeconFloor" instance=ExtResource("2_0caa1")]
+position = Vector2(0, -232)
+
+[node name="Window7" parent="SeconFloor" instance=ExtResource("2_0caa1")]
+position = Vector2(0, -322)
+
+[node name="Window8" parent="SeconFloor" instance=ExtResource("2_0caa1")]
+position = Vector2(133, -322)
+
+[node name="Window9" parent="SeconFloor" instance=ExtResource("2_0caa1")]
+position = Vector2(73, -230)
+
+[node name="Window10" parent="SeconFloor" instance=ExtResource("2_0caa1")]
+position = Vector2(133, -230)
+
+[node name="FirstFloor" type="Area2D" parent="."]
+position = Vector2(0, 321)
+metadata/_edit_lock_ = true
+
+[node name="Floor1Area" type="CollisionShape2D" parent="FirstFloor"]
+position = Vector2(0, -115)
+shape = SubResource("RectangleShape2D_dfy7b")
+
+[node name="Window13" parent="FirstFloor" instance=ExtResource("2_0caa1")]
+position = Vector2(-130, -27)
+
+[node name="Window11" parent="FirstFloor" instance=ExtResource("2_0caa1")]
+position = Vector2(-129, -122)
+
+[node name="Window12" parent="FirstFloor" instance=ExtResource("2_0caa1")]
+position = Vector2(-67, -27)
+
+[node name="Window14" parent="FirstFloor" instance=ExtResource("2_0caa1")]
+position = Vector2(-68, -123)
+
+[node name="Window" parent="FirstFloor/Window14" instance=ExtResource("2_0caa1")]
+
+[node name="Window" parent="FirstFloor" instance=ExtResource("2_0caa1")]
+position = Vector2(75, -119)
+
+[node name="Window2" parent="FirstFloor" instance=ExtResource("2_0caa1")]
+position = Vector2(76, -29)
+
+[node name="Window3" parent="FirstFloor" instance=ExtResource("2_0caa1")]
+position = Vector2(135, -119)
+
+[node name="Window4" parent="FirstFloor" instance=ExtResource("2_0caa1")]
+position = Vector2(136, -30)

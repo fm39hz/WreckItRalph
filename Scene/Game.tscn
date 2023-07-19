@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://dga8cmg12j3b0"]
+
+[ext_resource type="PackedScene" uid="uid://kgg7c4d2bawo" path="res://Scene/Felix.tscn" id="1_1kvu2"]
+[ext_resource type="PackedScene" uid="uid://mja086jrreo3" path="res://Scene/Level1.tscn" id="2_p1hrp"]
+
+[node name="Game" type="Node2D"]
+y_sort_enabled = true
+
+[node name="Felix" parent="." instance=ExtResource("1_1kvu2")]
+position = Vector2(220, -29)
+JumpVelocity = null
+FourDirectionAnimation = null
+
+[node name="Level1" parent="." instance=ExtResource("2_p1hrp")]
+position = Vector2(0, -323)

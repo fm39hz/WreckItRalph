@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://b20vv58f65t22"]
+
+[ext_resource type="Texture2D" uid="uid://daj6tescdoisv" path="res://Asset/Glass.png" id="1_aggn0"]
+
+[node name="Glass" type="Sprite2D"]
+texture = ExtResource("1_aggn0")
+vframes = 6
+frame = 5

@@ -1,0 +1,17 @@
+C:\Users\nguye\Downloads\Hienpham\Prototype\.godot\mono\temp\bin\Debug\Prototype.deps.json
+C:\Users\nguye\Downloads\Hienpham\Prototype\.godot\mono\temp\bin\Debug\Prototype.runtimeconfig.json
+C:\Users\nguye\Downloads\Hienpham\Prototype\.godot\mono\temp\bin\Debug\Prototype.dll
+C:\Users\nguye\Downloads\Hienpham\Prototype\.godot\mono\temp\bin\Debug\Prototype.pdb
+C:\Users\nguye\Downloads\Hienpham\Prototype\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\Users\nguye\Downloads\Hienpham\Prototype\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\Users\nguye\Downloads\Hienpham\Prototype\.godot\mono\temp\obj\Debug\Prototype.csproj.AssemblyReference.cache
+C:\Users\nguye\Downloads\Hienpham\Prototype\.godot\mono\temp\obj\Debug\Prototype.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nguye\Downloads\Hienpham\Prototype\.godot\mono\temp\obj\Debug\Prototype.AssemblyInfoInputs.cache
+C:\Users\nguye\Downloads\Hienpham\Prototype\.godot\mono\temp\obj\Debug\Prototype.AssemblyInfo.cs
+C:\Users\nguye\Downloads\Hienpham\Prototype\.godot\mono\temp\obj\Debug\Prototype.csproj.CoreCompileInputs.cache
+C:\Users\nguye\Downloads\Hienpham\Prototype\.godot\mono\temp\obj\Debug\Prototype.csproj.CopyComplete
+C:\Users\nguye\Downloads\Hienpham\Prototype\.godot\mono\temp\obj\Debug\Prototype.dll
+C:\Users\nguye\Downloads\Hienpham\Prototype\.godot\mono\temp\obj\Debug\refint\Prototype.dll
+C:\Users\nguye\Downloads\Hienpham\Prototype\.godot\mono\temp\obj\Debug\Prototype.pdb
+C:\Users\nguye\Downloads\Hienpham\Prototype\.godot\mono\temp\obj\Debug\Prototype.genruntimeconfig.cache
+C:\Users\nguye\Downloads\Hienpham\Prototype\.godot\mono\temp\obj\Debug\ref\Prototype.dll

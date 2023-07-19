@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://cybtspbceuouw"]
+
+[ext_resource type="Texture2D" uid="uid://c4dgr2bjwjl72" path="res://Asset/Window.png" id="1_e1488"]
+[ext_resource type="PackedScene" uid="uid://b20vv58f65t22" path="res://Scene/Glass.tscn" id="2_a5yxq"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dsjbi"]
+size = Vector2(44, 10)
+
+[node name="Window" type="StaticBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, -41)
+texture = ExtResource("1_e1488")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -5)
+shape = SubResource("RectangleShape2D_dsjbi")
+one_way_collision = true
+
+[node name="GlassAbove" parent="." instance=ExtResource("2_a5yxq")]
+position = Vector2(0, -52)
+
+[node name="GlassBellow" parent="." instance=ExtResource("2_a5yxq")]
+position = Vector2(0, -26)
